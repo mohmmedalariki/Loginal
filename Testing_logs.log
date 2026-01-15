@@ -1,0 +1,500 @@
+2025-12-30 15:58:56,697 INFO [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=hdfs action=WRITE resource=/opt/app/config.yaml severity=LOW
+2026-01-10 09:38:24,772 WARN [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=0d175d6401cafaad114674566a85014b user=hdfs source=/etc/passwd severity=LOW
+2025-12-16 03:08:01,665 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=svc_backup action=DELETE resource=/home/admin/.ssh/authorized_keys severity=LOW
+2025-12-27 01:14:53,683 WARN [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=587da700fddb43aac80a24cd4ae28fb8 user=www-data source=/opt/app/config.yaml severity=CRITICAL
+2026-01-11 13:25:41,927 ERROR [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:src_ip=211.198.10.189 dst_ip=122.39.35.100 domain=malicious.ru protocol=UDP severity=HIGH
+2026-01-09 07:21:18,038 INFO [TaskScheduler] com.security.integrity.FileIntegrityService:job_id=job_9281 checksum=f325129447b0a4d643419782029943d4 user=hdfs severity=MEDIUM
+2025-12-19 04:41:09,989 ERROR [SecurityMonitor] com.security.integrity.FileIntegrityService:job_id=job_2834 checksum=b64ba60d498ea5746083d383c9542301 user=hdfs severity=MEDIUM
+2025-12-27 22:29:01,915 FATAL [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=65.4.144.108 dst_ip=45.219.158.224 domain=test.net protocol=ICMP severity=MEDIUM
+2025-12-23 22:43:50,250 INFO [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=187.184.54.156 dst_ip=22.199.236.209 domain=test.net protocol=UDP severity=MEDIUM
+2026-01-12 13:26:23,356 INFO [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=www-data src_ip=70.65.210.7 port=21121 action=FAILED_LOGIN severity=CRITICAL
+2026-01-02 05:40:50,220 ERROR [TaskScheduler] com.security.integrity.FileIntegrityService:user=ubuntu action=DELETE resource=/var/www/html/index.php severity=LOW
+2025-12-27 06:40:10,378 INFO [SecurityMonitor] com.security.integrity.FileIntegrityService:user=root src_ip=169.78.88.222 port=1087 action=FAILED_LOGIN severity=CRITICAL
+2025-12-27 10:56:23,702 FATAL [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=72.111.108.103 dst_ip=70.65.210.7 domain=example.com protocol=UDP severity=CRITICAL
+2026-01-09 07:32:01,574 ERROR [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=ubuntu src_ip=104.82.240.248 port=19580 action=LOGIN_SUCCESS severity=LOW
+2025-12-24 03:28:09,786 WARN [SSH-Audit] com.security.integrity.FileIntegrityService:job_id=job_8187 checksum=580c269a4f8f61dfc60215efe64a0904 user=hdfs severity=LOW
+2025-12-23 03:12:03,580 ERROR [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin src_ip=159.111.71.47 port=16319 action=FAILED_LOGIN severity=HIGH
+2025-12-17 02:17:20,790 WARN [TaskScheduler] com.network.firewall.PacketAnalyzer:user=admin action=READ resource=/var/www/html/index.php severity=LOW
+2026-01-02 02:35:52,823 FATAL [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_9756 checksum=89b9da918ded57f2492b1c9319a115ed user=hdfs severity=HIGH
+2026-01-13 09:57:05,898 WARN [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_9199 checksum=ff2fbce87acc3c05b97888a1e7ca9914 user=hdfs severity=HIGH
+2025-12-26 00:44:02,761 ERROR [IPC Server handler] com.security.auth.SSHMonitor:job_id=job_4630 checksum=862c485395a1e59592a66bc1c0c73c52 user=hdfs severity=MEDIUM
+2025-12-22 19:03:33,062 ERROR [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:job_id=job_9743 checksum=130285925c57535500cdc37989b0dcbf user=hdfs severity=CRITICAL
+2026-01-02 15:26:35,896 FATAL [IPC Server handler] com.security.integrity.FileIntegrityService:src_ip=26.185.7.132 dst_ip=161.112.77.61 domain=internal.corp protocol=TCP severity=LOW
+2025-12-26 11:57:34,375 ERROR [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup action=READ resource=/var/www/html/index.php severity=CRITICAL
+2026-01-08 11:36:52,159 FATAL [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=f1651f1113bb5505a190daefc92c99d2 user=admin source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-20 19:52:43,910 ERROR [SSH-Audit] com.security.integrity.FileIntegrityService:user=hdfs src_ip=46.28.212.51 port=34990 action=FAILED_LOGIN severity=CRITICAL
+2025-12-17 03:43:53,862 WARN [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=4.143.80.168 dst_ip=88.58.61.182 domain=malicious.ru protocol=TCP severity=CRITICAL
+2026-01-02 09:57:58,525 ERROR [SecurityMonitor] com.security.integrity.FileIntegrityService:user=admin src_ip=141.239.92.201 port=1672 action=FAILED_LOGIN severity=CRITICAL
+2025-12-24 17:14:04,857 WARN [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=hdfs src_ip=27.200.105.187 port=42532 action=LOGIN_SUCCESS severity=LOW
+2026-01-10 22:31:24,999 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:job_id=job_9367 checksum=e8c9d01faa8a517ad6bdc1c6f104fd42 user=hdfs severity=HIGH
+2026-01-12 23:16:48,521 WARN [IPC Server handler] com.security.auth.SSHMonitor:user=www-data src_ip=85.124.108.151 port=9184 action=LOGIN_SUCCESS severity=LOW
+2026-01-13 09:10:28,172 FATAL [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=1230c3ee5ae8b6ae9516d3e23634bc47 user=www-data source=/etc/passwd severity=CRITICAL
+2026-01-03 23:12:00,335 WARN [TaskScheduler] com.security.auth.SSHMonitor:user=ubuntu src_ip=195.103.252.123 port=28397 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-09 04:51:42,868 WARN [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=fbc1433a3b7c505d79f7784870165d40 user=ubuntu source=/var/www/html/index.php severity=MEDIUM
+2025-12-27 17:25:03,088 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:src_ip=88.219.45.93 dst_ip=106.81.192.53 domain=test.net protocol=ICMP severity=CRITICAL
+2025-12-26 18:42:06,328 INFO [SecurityMonitor] com.security.auth.SSHMonitor:user=root action=EXECUTE resource=/tmp/.cache/.mr_exec severity=MEDIUM
+2025-12-26 17:31:40,325 WARN [SecurityMonitor] com.security.integrity.FileIntegrityService:src_ip=133.252.156.135 dst_ip=155.62.130.91 domain=internal.corp protocol=TCP severity=MEDIUM
+2025-12-26 16:49:33,646 INFO [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=3b1b32947ebd26d7dbe1b915bc35ee64 user=root source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-28 22:51:18,507 INFO [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_1258 checksum=80bb4c3ba554fb741f299f76a18079f4 user=hdfs severity=CRITICAL
+2025-12-18 19:05:47,375 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=hdfs action=WRITE resource=/var/www/html/index.php severity=MEDIUM
+2026-01-04 00:28:15,934 INFO [SSH-Audit] com.security.integrity.FileIntegrityService:user=hdfs action=WRITE resource=/tmp/.cache/.mr_exec severity=LOW
+2026-01-12 19:25:12,486 FATAL [ResourceManager] com.security.integrity.FileIntegrityService:job_id=job_3311 checksum=88b75531e996813986c7922c5920f375 user=hdfs severity=CRITICAL
+2026-01-05 23:52:18,959 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:src_ip=56.89.10.145 dst_ip=162.189.44.136 domain=example.com protocol=ICMP severity=LOW
+2025-12-15 11:36:20,727 ERROR [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=svc_backup action=EXECUTE resource=/var/www/html/index.php severity=LOW
+2025-12-29 05:43:53,911 INFO [IPC Server handler] com.network.firewall.PacketAnalyzer:user=hdfs action=EXECUTE resource=/var/www/html/index.php severity=HIGH
+2026-01-12 22:47:07,825 ERROR [TaskScheduler] com.network.firewall.PacketAnalyzer:job_id=job_3653 checksum=5d4d2a25ba8015ea5175e0fb2774ce99 user=hdfs severity=LOW
+2025-12-25 01:04:34,544 WARN [SecurityMonitor] com.network.firewall.PacketAnalyzer:user=svc_backup action=READ resource=/var/www/html/index.php severity=CRITICAL
+2025-12-18 05:45:46,852 FATAL [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=98.77.2.222 dst_ip=104.82.240.248 domain=internal.corp protocol=UDP severity=LOW
+2025-12-16 04:47:10,915 ERROR [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=f2f0e9339a5837d816c55364fa8d4c4a user=admin source=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2025-12-19 04:09:19,980 FATAL [TaskScheduler] com.security.auth.SSHMonitor:user=root action=DELETE resource=/var/www/html/index.php severity=LOW
+2025-12-21 15:29:16,727 ERROR [IPC Server handler] com.security.auth.SSHMonitor:user=admin src_ip=34.161.134.164 port=56461 action=FAILED_LOGIN severity=CRITICAL
+2025-12-21 06:08:21,464 FATAL [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=svc_backup action=EXECUTE resource=/var/www/html/index.php severity=LOW
+2025-12-27 14:39:17,774 INFO [ResourceManager] com.security.integrity.FileIntegrityService:src_ip=78.178.233.139 dst_ip=105.71.1.246 domain=malicious.ru protocol=ICMP severity=MEDIUM
+2026-01-06 02:28:24,674 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=svc_backup action=WRITE resource=/tmp/.cache/.mr_exec severity=LOW
+2026-01-11 06:24:49,953 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_2574 checksum=a748dfd019e60fca20c633bc395c79e5 user=hdfs severity=HIGH
+2026-01-11 08:31:41,698 ERROR [IPC Server handler] com.security.auth.SSHMonitor:src_ip=162.189.44.136 dst_ip=205.225.142.53 domain=internal.corp protocol=UDP severity=LOW
+2025-12-30 19:32:27,806 FATAL [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu src_ip=3.163.59.237 port=43206 action=LOGIN_SUCCESS severity=LOW
+2026-01-10 11:29:52,125 ERROR [ResourceManager] com.security.auth.SSHMonitor:job_id=job_4108 checksum=a391201999452e0af18eecfcb0fe8ce2 user=hdfs severity=CRITICAL
+2026-01-07 11:21:38,433 WARN [SecurityMonitor] com.network.firewall.PacketAnalyzer:src_ip=205.197.186.39 dst_ip=66.135.148.144 domain=example.com protocol=TCP severity=MEDIUM
+2026-01-03 17:32:12,581 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=59.164.54.240 dst_ip=59.77.174.64 domain=test.net protocol=UDP severity=LOW
+2025-12-20 17:39:10,545 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=admin src_ip=105.71.1.246 port=53131 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-14 14:08:56,350 FATAL [IPC Server handler] com.security.auth.SSHMonitor:job_id=job_5183 checksum=c2614169e0dd0f468942327a418b158a user=hdfs severity=LOW
+2025-12-25 08:33:13,638 ERROR [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_9047 checksum=e89b3ab920a04dd9e3200fec77707d11 user=hdfs severity=MEDIUM
+2026-01-11 18:41:18,879 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=hdfs action=WRITE resource=/etc/passwd severity=CRITICAL
+2026-01-10 18:47:54,406 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=f518850a98171eba0f71ffc818b89b41 user=admin source=/tmp/.cache/.mr_exec severity=MEDIUM
+2026-01-13 03:53:21,626 FATAL [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup action=DELETE resource=/home/admin/.ssh/authorized_keys severity=LOW
+2026-01-10 01:58:37,246 FATAL [IPC Server handler] com.security.integrity.FileIntegrityService:user=www-data src_ip=119.119.64.186 port=11126 action=FAILED_LOGIN severity=CRITICAL
+2025-12-20 01:08:22,079 FATAL [IPC Server handler] com.security.integrity.FileIntegrityService:user=ubuntu src_ip=136.251.213.248 port=31343 action=LOGIN_SUCCESS severity=LOW
+2026-01-12 06:08:12,557 FATAL [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=82be2a751ce7fe962d0c3d324ceca30f user=hdfs source=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2026-01-11 00:48:01,895 INFO [ResourceManager] com.security.integrity.FileIntegrityService:job_id=job_5648 checksum=a3467ba27b959165acd6e5ee412113cb user=hdfs severity=MEDIUM
+2026-01-13 07:44:15,269 INFO [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=114.195.82.21 dst_ip=98.233.237.155 domain=example.com protocol=TCP severity=MEDIUM
+2026-01-10 09:17:42,792 FATAL [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_4763 checksum=247f4a5cd64e604afb8fadee6c126c03 user=hdfs severity=LOW
+2025-12-26 17:01:46,412 ERROR [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=efdcfde348dc32b623d62dd41cc0fe76 user=svc_backup source=/opt/app/config.yaml severity=HIGH
+2026-01-08 22:03:11,247 INFO [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=www-data src_ip=129.88.123.83 port=12622 action=FAILED_LOGIN severity=HIGH
+2026-01-06 13:53:22,608 INFO [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=www-data src_ip=133.252.156.135 port=44632 action=LOGIN_SUCCESS severity=LOW
+2026-01-08 11:36:49,430 INFO [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_2560 checksum=908fe630ec6f53a35e427059d513185d user=hdfs severity=HIGH
+2025-12-31 20:57:12,457 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_4157 checksum=74c63dff0158442ae432dad4d7b97910 user=hdfs severity=MEDIUM
+2026-01-09 03:30:00,459 ERROR [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=99.11.172.126 dst_ip=211.198.10.189 domain=malicious.ru protocol=TCP severity=LOW
+2025-12-29 07:58:47,126 INFO [ResourceManager] com.security.auth.SSHMonitor:src_ip=93.13.120.9 dst_ip=211.198.10.189 domain=test.net protocol=UDP severity=HIGH
+2026-01-02 18:00:35,663 FATAL [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=DELETE resource=/var/www/html/index.php severity=LOW
+2025-12-28 01:22:15,796 FATAL [TaskScheduler] com.security.integrity.FileIntegrityService:user=ubuntu src_ip=89.6.161.59 port=16504 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-11 04:31:51,058 FATAL [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:checksum=c71037abf49dd4d556bef814cb908b98 user=ubuntu source=/tmp/.cache/.mr_exec severity=CRITICAL
+2026-01-08 08:19:41,285 INFO [ResourceManager] com.security.integrity.FileIntegrityService:user=admin action=WRITE resource=/opt/app/config.yaml severity=CRITICAL
+2025-12-28 23:15:52,743 INFO [TaskScheduler] com.security.integrity.FileIntegrityService:checksum=2641066257903b56dbd2bdf6e3f65d40 user=admin source=/opt/app/config.yaml severity=LOW
+2026-01-07 16:23:04,063 WARN [SSH-Audit] com.network.firewall.PacketAnalyzer:user=ubuntu src_ip=161.112.77.61 port=38889 action=FAILED_LOGIN severity=CRITICAL
+2026-01-01 17:11:16,076 FATAL [TaskScheduler] com.security.integrity.FileIntegrityService:src_ip=141.239.92.201 dst_ip=143.164.75.77 domain=malicious.ru protocol=UDP severity=HIGH
+2026-01-12 18:23:38,294 WARN [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=193.107.230.20 dst_ip=133.252.156.135 domain=malicious.ru protocol=ICMP severity=LOW
+2025-12-31 16:05:09,824 FATAL [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:user=www-data src_ip=211.198.10.189 port=10496 action=FAILED_LOGIN severity=HIGH
+2026-01-05 05:26:01,320 ERROR [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=www-data action=READ resource=/etc/passwd severity=LOW
+2026-01-06 05:34:28,134 WARN [SSH-Audit] com.security.integrity.FileIntegrityService:user=svc_backup src_ip=106.81.192.53 port=31830 action=LOGIN_SUCCESS severity=LOW
+2025-12-19 12:55:02,771 FATAL [IPC Server handler] com.security.auth.SSHMonitor:checksum=52cd457b1d226796ea67940ba7dea210 user=svc_backup source=/tmp/.cache/.mr_exec severity=HIGH
+2025-12-17 14:54:26,910 WARN [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=32f8411ae75daa760d1da1e65e6b95ea user=admin source=/var/www/html/index.php severity=HIGH
+2025-12-23 03:56:48,429 WARN [SecurityMonitor] com.security.integrity.FileIntegrityService:user=root src_ip=207.126.85.96 port=48617 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-13 03:22:09,871 ERROR [TaskScheduler] com.security.auth.SSHMonitor:checksum=f38d032f253044b8b5827c10ee038203 user=svc_backup source=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2025-12-13 19:25:32,216 FATAL [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=www-data action=DELETE resource=/tmp/.cache/.mr_exec severity=CRITICAL
+2026-01-01 11:20:32,045 FATAL [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_8211 checksum=209d8ac53d5da67913ad1fdf13da9c05 user=hdfs severity=HIGH
+2026-01-04 04:05:22,767 INFO [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=964e89dee8b2af37a7b514d608eea1a9 user=hdfs source=/etc/passwd severity=CRITICAL
+2025-12-14 20:08:31,283 ERROR [ResourceManager] com.network.firewall.PacketAnalyzer:job_id=job_2463 checksum=a73d1f52eddece48c730cf183d576abf user=hdfs severity=LOW
+2025-12-23 11:49:42,156 ERROR [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin action=EXECUTE resource=/var/www/html/index.php severity=HIGH
+2026-01-07 05:18:10,678 FATAL [TaskScheduler] com.network.firewall.PacketAnalyzer:user=root action=EXECUTE resource=/opt/app/config.yaml severity=CRITICAL
+2025-12-18 02:44:37,072 WARN [ResourceManager] com.security.integrity.FileIntegrityService:src_ip=100.220.34.111 dst_ip=45.219.158.224 domain=example.com protocol=ICMP severity=MEDIUM
+2025-12-16 03:12:07,979 WARN [SSH-Audit] com.security.auth.SSHMonitor:src_ip=28.46.124.36 dst_ip=98.233.237.155 domain=test.net protocol=UDP severity=LOW
+2025-12-27 01:50:07,218 INFO [SecurityMonitor] com.network.firewall.PacketAnalyzer:job_id=job_2416 checksum=6a04bd6574c198f157e442cdfcdf8f1d user=hdfs severity=MEDIUM
+2025-12-23 09:28:05,360 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=41.181.220.64 dst_ip=88.219.45.93 domain=example.com protocol=TCP severity=HIGH
+2025-12-14 11:43:08,656 WARN [ResourceManager] com.security.auth.SSHMonitor:user=hdfs action=EXECUTE resource=/var/www/html/index.php severity=LOW
+2025-12-22 18:00:06,129 ERROR [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=root action=READ resource=/opt/app/config.yaml severity=MEDIUM
+2025-12-30 14:19:50,353 ERROR [AsyncDispatcher event handler] com.security.auth.SSHMonitor:checksum=bd682c0361cd6da01c7ec39b4fb0a57b user=www-data source=/tmp/.cache/.mr_exec severity=HIGH
+2026-01-11 15:41:00,073 WARN [TaskScheduler] com.network.firewall.PacketAnalyzer:user=hdfs action=DELETE resource=/var/www/html/index.php severity=HIGH
+2025-12-30 19:26:38,061 FATAL [ResourceManager] com.security.integrity.FileIntegrityService:user=hdfs action=WRITE resource=/opt/app/config.yaml severity=CRITICAL
+2025-12-28 11:32:52,313 WARN [ResourceManager] com.security.integrity.FileIntegrityService:checksum=7ce45db505f6960f62a61012e8f58355 user=svc_backup source=/tmp/.cache/.mr_exec severity=HIGH
+2025-12-30 04:53:48,749 FATAL [TaskScheduler] com.security.auth.SSHMonitor:user=svc_backup action=READ resource=/opt/app/config.yaml severity=CRITICAL
+2026-01-09 21:09:56,506 INFO [TaskScheduler] com.security.auth.SSHMonitor:user=root action=DELETE resource=/var/www/html/index.php severity=MEDIUM
+2026-01-02 21:28:30,137 INFO [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_1844 checksum=68338a2d5d27691b637ca5a2786726f4 user=hdfs severity=MEDIUM
+2025-12-29 07:22:53,096 ERROR [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin action=EXECUTE resource=/tmp/.cache/.mr_exec severity=HIGH
+2026-01-13 08:27:35,592 ERROR [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=root action=READ resource=/home/admin/.ssh/authorized_keys severity=LOW
+2026-01-13 14:48:26,181 WARN [SSH-Audit] com.security.integrity.FileIntegrityService:job_id=job_3846 checksum=20a51f05b3aa1f58e131c756244c6766 user=hdfs severity=MEDIUM
+2026-01-13 01:43:33,220 FATAL [SSH-Audit] com.network.firewall.PacketAnalyzer:src_ip=27.200.105.187 dst_ip=62.101.108.139 domain=test.net protocol=UDP severity=MEDIUM
+2025-12-19 19:25:58,043 ERROR [ResourceManager] com.network.firewall.PacketAnalyzer:src_ip=136.251.213.248 dst_ip=85.124.108.151 domain=example.com protocol=UDP severity=LOW
+2026-01-12 15:02:59,119 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_1256 checksum=25599e7e8585c7499b36fe8ecc687d23 user=hdfs severity=HIGH
+2025-12-26 00:25:26,897 WARN [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=46.28.212.51 dst_ip=56.89.10.145 domain=internal.corp protocol=UDP severity=MEDIUM
+2026-01-06 09:08:19,022 WARN [SecurityMonitor] com.security.auth.SSHMonitor:user=www-data action=READ resource=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2025-12-18 08:32:51,399 FATAL [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin action=EXECUTE resource=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2026-01-11 20:03:05,759 INFO [AsyncDispatcher event handler] com.security.auth.SSHMonitor:src_ip=114.195.82.21 dst_ip=66.135.148.144 domain=malicious.ru protocol=ICMP severity=LOW
+2026-01-08 12:13:28,819 FATAL [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup action=DELETE resource=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-29 12:03:38,747 WARN [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=669952b147f60f4975ad5edec87198da user=admin source=/opt/app/config.yaml severity=CRITICAL
+2026-01-08 09:39:47,587 FATAL [SSH-Audit] com.security.auth.SSHMonitor:src_ip=162.189.44.136 dst_ip=209.136.69.221 domain=malicious.ru protocol=UDP severity=HIGH
+2026-01-05 09:45:44,222 WARN [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=hdfs action=DELETE resource=/opt/app/config.yaml severity=MEDIUM
+2026-01-06 20:06:04,282 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:user=www-data src_ip=88.219.45.93 port=1525 action=FAILED_LOGIN severity=CRITICAL
+2025-12-28 21:46:11,071 INFO [ResourceManager] com.security.auth.SSHMonitor:checksum=836ca869e34433237dd208cf7098ba4e user=svc_backup source=/opt/app/config.yaml severity=HIGH
+2025-12-26 04:03:49,692 ERROR [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu src_ip=144.93.192.58 port=39448 action=FAILED_LOGIN severity=HIGH
+2026-01-11 19:15:15,730 INFO [TaskScheduler] com.security.integrity.FileIntegrityService:user=admin action=READ resource=/etc/passwd severity=CRITICAL
+2025-12-21 17:12:34,645 INFO [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=34.161.134.164 dst_ip=39.79.246.220 domain=internal.corp protocol=TCP severity=LOW
+2025-12-29 09:12:34,990 INFO [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu action=DELETE resource=/home/admin/.ssh/authorized_keys severity=LOW
+2025-12-26 20:31:05,923 FATAL [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=cf9df35f3213208071ec1efc11e36ce5 user=www-data source=/etc/passwd severity=LOW
+2026-01-01 13:26:54,992 WARN [TaskScheduler] com.security.auth.SSHMonitor:src_ip=59.77.174.64 dst_ip=127.109.112.22 domain=malicious.ru protocol=ICMP severity=LOW
+2025-12-17 00:07:14,385 WARN [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_3554 checksum=9391b56aadb3de985dd15a460c3822e8 user=hdfs severity=LOW
+2025-12-21 17:15:10,592 FATAL [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=www-data src_ip=99.11.172.126 port=26121 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-17 07:57:10,169 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:src_ip=186.20.241.218 dst_ip=223.67.49.179 domain=malicious.ru protocol=UDP severity=HIGH
+2025-12-18 04:42:30,850 INFO [TaskScheduler] com.security.integrity.FileIntegrityService:checksum=b104be848f28ecc0faa74f3f2db5edf5 user=ubuntu source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-21 18:11:13,580 ERROR [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_6296 checksum=432994de0116fa7f628df729d72c35ef user=hdfs severity=HIGH
+2025-12-19 12:03:41,768 FATAL [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=116.49.143.134 dst_ip=136.251.213.248 domain=example.com protocol=TCP severity=LOW
+2025-12-28 10:58:05,621 WARN [TaskScheduler] com.security.auth.SSHMonitor:job_id=job_6179 checksum=fbf78752f8e7833dc36ec00d943aaf40 user=hdfs severity=MEDIUM
+2025-12-20 05:16:10,047 INFO [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=root src_ip=170.230.193.218 port=54833 action=LOGIN_SUCCESS severity=LOW
+2026-01-08 07:00:08,364 INFO [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root action=EXECUTE resource=/etc/passwd severity=LOW
+2025-12-19 15:04:56,314 WARN [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=hdfs action=WRITE resource=/home/admin/.ssh/authorized_keys severity=LOW
+2025-12-14 10:17:23,851 FATAL [SSH-Audit] com.security.auth.SSHMonitor:checksum=3ab3fbc60573b3ea216d992869ef9f73 user=admin source=/opt/app/config.yaml severity=CRITICAL
+2025-12-19 16:26:00,490 WARN [IPC Server handler] com.security.integrity.FileIntegrityService:job_id=job_8925 checksum=03353becbbc7fbb685a55926f3a753c7 user=hdfs severity=MEDIUM
+2025-12-21 19:00:14,185 WARN [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=85a4c538d7fbcd7b5047681334f02618 user=ubuntu source=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-17 13:50:34,522 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:src_ip=45.219.158.224 dst_ip=110.211.112.238 domain=internal.corp protocol=TCP severity=LOW
+2025-12-25 01:58:04,376 INFO [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=root action=EXECUTE resource=/etc/passwd severity=HIGH
+2025-12-14 21:24:35,165 FATAL [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=WRITE resource=/etc/passwd severity=HIGH
+2025-12-23 04:26:08,512 ERROR [SecurityMonitor] com.security.auth.SSHMonitor:job_id=job_1012 checksum=7949e98e44ed7ff58ba5e73ecbb592a4 user=hdfs severity=CRITICAL
+2026-01-13 12:30:58,655 WARN [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=47ba968324c9aaf8f03b401b1a8e4bd1 user=hdfs source=/opt/app/config.yaml severity=CRITICAL
+2026-01-03 21:46:56,152 FATAL [TaskScheduler] com.network.firewall.PacketAnalyzer:job_id=job_8215 checksum=7b46142e5a58136d20e19e965956d39e user=hdfs severity=MEDIUM
+2025-12-14 07:47:37,120 FATAL [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=READ resource=/etc/passwd severity=HIGH
+2026-01-02 18:52:56,793 ERROR [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=eca09fdd4cc8bc0af822aa7dd3d06f0a user=root source=/opt/app/config.yaml severity=CRITICAL
+2026-01-12 18:34:30,539 ERROR [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=68d596b4e699d3ad361b1f40c75a4cdf user=hdfs source=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2026-01-04 05:47:49,379 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:job_id=job_7945 checksum=0b29e60f2390812d84a6715fe65cac0c user=hdfs severity=CRITICAL
+2026-01-05 08:22:04,667 FATAL [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=root action=EXECUTE resource=/etc/passwd severity=CRITICAL
+2025-12-20 22:14:32,849 INFO [IPC Server handler] com.network.firewall.PacketAnalyzer:user=www-data action=READ resource=/var/www/html/index.php severity=LOW
+2025-12-25 03:59:13,530 ERROR [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=193.107.230.20 dst_ip=145.163.167.66 domain=test.net protocol=TCP severity=LOW
+2026-01-08 15:30:36,859 WARN [SecurityMonitor] com.security.integrity.FileIntegrityService:src_ip=187.123.102.104 dst_ip=72.146.56.146 domain=example.com protocol=UDP severity=CRITICAL
+2025-12-13 20:24:54,903 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=ubuntu src_ip=196.82.94.242 port=13405 action=LOGIN_SUCCESS severity=LOW
+2025-12-16 11:25:04,984 WARN [SecurityMonitor] com.network.firewall.PacketAnalyzer:user=root src_ip=177.55.43.111 port=40797 action=FAILED_LOGIN severity=HIGH
+2026-01-01 07:24:50,347 INFO [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=f91a47aec33969d98b9b3e312fe328a7 user=hdfs source=/opt/app/config.yaml severity=MEDIUM
+2025-12-14 01:04:33,591 WARN [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=159.224.227.37 dst_ip=106.81.192.53 domain=example.com protocol=TCP severity=HIGH
+2025-12-20 18:29:11,892 WARN [IPC Server handler] com.security.integrity.FileIntegrityService:user=svc_backup action=WRITE resource=/etc/passwd severity=LOW
+2025-12-15 23:54:23,221 ERROR [SSH-Audit] com.security.integrity.FileIntegrityService:job_id=job_8240 checksum=44d9df2e3116ce5a7ffa9fdc16e596ce user=hdfs severity=MEDIUM
+2025-12-19 09:02:15,778 INFO [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=6f034180f3e8e4ef13f41b7c4bd65b5f user=ubuntu source=/var/www/html/index.php severity=CRITICAL
+2025-12-24 18:37:29,448 FATAL [TaskScheduler] com.security.auth.SSHMonitor:user=svc_backup action=DELETE resource=/etc/passwd severity=HIGH
+2026-01-01 04:32:27,971 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=svc_backup action=DELETE resource=/etc/passwd severity=CRITICAL
+2025-12-31 15:17:07,566 INFO [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs src_ip=31.228.0.55 port=44250 action=FAILED_LOGIN severity=HIGH
+2025-12-14 22:57:38,612 WARN [TaskScheduler] com.security.integrity.FileIntegrityService:job_id=job_7664 checksum=2d2732744780482f823757e050bfa8ef user=hdfs severity=LOW
+2025-12-17 05:00:07,665 INFO [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=svc_backup src_ip=209.136.69.221 port=56099 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-03 22:39:44,930 INFO [TaskScheduler] com.security.auth.SSHMonitor:job_id=job_8056 checksum=1b16b033b39296c47b2a6cc1f64689fe user=hdfs severity=MEDIUM
+2025-12-21 12:28:46,393 INFO [ResourceManager] com.security.integrity.FileIntegrityService:user=hdfs action=READ resource=/var/www/html/index.php severity=LOW
+2026-01-03 12:28:28,034 WARN [SSH-Audit] com.network.firewall.PacketAnalyzer:job_id=job_6558 checksum=d910e49bc8421b67a221b93203504b4c user=hdfs severity=MEDIUM
+2025-12-20 17:27:07,504 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:user=root action=WRITE resource=/etc/passwd severity=MEDIUM
+2026-01-10 03:37:28,619 FATAL [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_7423 checksum=ddf39a437a4c23561bc5201e5b51e696 user=hdfs severity=LOW
+2025-12-21 19:54:39,520 FATAL [ResourceManager] com.security.auth.SSHMonitor:src_ip=65.4.144.108 dst_ip=129.88.123.83 domain=example.com protocol=UDP severity=MEDIUM
+2026-01-12 12:33:01,717 ERROR [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=e5f4141344009d33a6e1e82421e0cbd8 user=www-data source=/etc/passwd severity=MEDIUM
+2025-12-19 23:09:59,352 WARN [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=WRITE resource=/opt/app/config.yaml severity=MEDIUM
+2025-12-20 08:26:28,829 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=45.219.158.224 dst_ip=195.12.154.95 domain=malicious.ru protocol=UDP severity=CRITICAL
+2026-01-04 21:30:45,037 FATAL [SecurityMonitor] com.security.integrity.FileIntegrityService:src_ip=88.58.61.182 dst_ip=113.24.63.3 domain=malicious.ru protocol=ICMP severity=LOW
+2025-12-31 23:23:54,572 FATAL [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=126.71.46.219 dst_ip=72.146.56.146 domain=test.net protocol=ICMP severity=HIGH
+2025-12-29 00:20:39,192 INFO [ResourceManager] com.network.firewall.PacketAnalyzer:src_ip=143.164.75.77 dst_ip=177.55.43.111 domain=test.net protocol=TCP severity=CRITICAL
+2026-01-08 18:11:24,309 ERROR [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup src_ip=39.218.179.227 port=58050 action=LOGIN_SUCCESS severity=LOW
+2026-01-03 18:45:07,835 ERROR [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=d8ceb310de85e465b967851329fcad1b user=www-data source=/etc/passwd severity=HIGH
+2026-01-11 01:06:51,448 INFO [SSH-Audit] com.security.integrity.FileIntegrityService:checksum=a00d14f52cd3c583ffbe8c6561b7aa56 user=www-data source=/tmp/.cache/.mr_exec severity=MEDIUM
+2026-01-01 20:55:47,834 WARN [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=admin action=EXECUTE resource=/opt/app/config.yaml severity=CRITICAL
+2026-01-05 01:47:15,415 INFO [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=ubuntu action=EXECUTE resource=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-27 23:25:10,918 WARN [TaskScheduler] com.security.auth.SSHMonitor:src_ip=72.111.108.103 dst_ip=116.49.143.134 domain=example.com protocol=UDP severity=HIGH
+2026-01-07 15:44:13,886 FATAL [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:user=root action=READ resource=/tmp/.cache/.mr_exec severity=MEDIUM
+2026-01-03 00:42:29,363 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=011c93eeb22bd8e0ea3ba11b8a605a80 user=svc_backup source=/var/www/html/index.php severity=HIGH
+2025-12-13 23:30:00,319 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:src_ip=187.184.54.156 dst_ip=92.36.84.123 domain=internal.corp protocol=ICMP severity=HIGH
+2025-12-28 12:30:05,776 ERROR [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_2372 checksum=b47d8eeb7b749042aa9a5c8c9bfce031 user=hdfs severity=LOW
+2025-12-13 19:36:57,695 ERROR [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_6341 checksum=739074f23dc42297edc002421af840f7 user=hdfs severity=LOW
+2025-12-14 02:51:15,292 FATAL [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=hdfs src_ip=186.20.241.218 port=22449 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-29 12:52:16,951 FATAL [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=88f1e17cfc0492f1c3914a4daa08dc0c user=ubuntu source=/opt/app/config.yaml severity=CRITICAL
+2026-01-10 07:22:28,882 FATAL [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_2333 checksum=6aad4bb0c438e8d5c0c7f4089e8b1896 user=hdfs severity=MEDIUM
+2025-12-17 09:43:58,904 ERROR [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=acdfe8db5c929a37f5ef56dbb12b4494 user=www-data source=/opt/app/config.yaml severity=CRITICAL
+2025-12-17 16:26:06,704 WARN [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_4723 checksum=b4c606b5f11935a915a33a7db4ed5346 user=hdfs severity=HIGH
+2025-12-31 09:56:18,548 ERROR [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=EXECUTE resource=/etc/passwd severity=MEDIUM
+2026-01-11 21:29:55,648 WARN [SecurityMonitor] com.network.firewall.PacketAnalyzer:job_id=job_6600 checksum=e5c25ba60baa22692d70326903828027 user=hdfs severity=HIGH
+2026-01-03 10:26:35,855 INFO [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=root action=WRITE resource=/var/www/html/index.php severity=HIGH
+2026-01-12 11:04:18,759 ERROR [IPC Server handler] com.security.auth.SSHMonitor:checksum=b245d1190da6db50f71c6b4b70729609 user=svc_backup source=/tmp/.cache/.mr_exec severity=LOW
+2025-12-25 01:43:15,035 FATAL [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=205.197.186.39 dst_ip=65.94.247.87 domain=test.net protocol=TCP severity=LOW
+2026-01-06 12:39:58,969 FATAL [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=eb747302204f0353546c429f8de1aa75 user=www-data source=/var/www/html/index.php severity=CRITICAL
+2025-12-31 04:13:50,974 ERROR [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=59.164.54.240 dst_ip=186.20.241.218 domain=internal.corp protocol=TCP severity=LOW
+2025-12-23 16:13:02,928 WARN [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=d55573482b201176852505b729f43b3d user=hdfs source=/etc/passwd severity=CRITICAL
+2026-01-05 17:33:51,297 ERROR [TaskScheduler] com.network.firewall.PacketAnalyzer:job_id=job_9337 checksum=300009f0facf5dcff22df30b75f439e5 user=hdfs severity=HIGH
+2026-01-03 07:15:57,856 INFO [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=www-data src_ip=155.62.130.91 port=52817 action=LOGIN_SUCCESS severity=LOW
+2025-12-25 02:47:33,083 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=98676786ccd64ead56e8de60f39e6349 user=svc_backup source=/etc/passwd severity=LOW
+2025-12-18 08:52:28,316 ERROR [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=admin action=READ resource=/tmp/.cache/.mr_exec severity=MEDIUM
+2025-12-28 14:37:10,156 INFO [ResourceManager] com.security.integrity.FileIntegrityService:user=hdfs src_ip=39.218.179.227 port=4708 action=FAILED_LOGIN severity=HIGH
+2026-01-11 08:11:27,993 INFO [SSH-Audit] com.network.firewall.PacketAnalyzer:user=admin src_ip=93.13.120.9 port=56721 action=LOGIN_SUCCESS severity=LOW
+2026-01-02 09:51:07,080 FATAL [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_9305 checksum=8197a5427fcbbf255894964c0f8fe2d5 user=hdfs severity=CRITICAL
+2026-01-05 06:11:06,458 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=601758c7ce34de489c8b4f30876649f6 user=hdfs source=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-19 04:24:26,509 FATAL [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root src_ip=100.220.34.111 port=32493 action=FAILED_LOGIN severity=HIGH
+2026-01-09 08:32:28,491 WARN [TaskScheduler] com.security.auth.SSHMonitor:src_ip=106.81.192.53 dst_ip=70.65.210.7 domain=malicious.ru protocol=ICMP severity=CRITICAL
+2026-01-01 04:33:15,003 FATAL [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:user=www-data action=READ resource=/opt/app/config.yaml severity=MEDIUM
+2025-12-15 14:14:38,299 WARN [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=root action=EXECUTE resource=/var/www/html/index.php severity=CRITICAL
+2026-01-05 13:28:17,988 INFO [AsyncDispatcher event handler] com.security.auth.SSHMonitor:user=www-data src_ip=26.185.7.132 port=32018 action=LOGIN_SUCCESS severity=LOW
+2026-01-06 22:09:05,937 ERROR [SecurityMonitor] com.security.auth.SSHMonitor:user=admin src_ip=89.87.244.50 port=57218 action=FAILED_LOGIN severity=CRITICAL
+2026-01-03 02:24:25,513 FATAL [ResourceManager] com.security.integrity.FileIntegrityService:user=www-data src_ip=45.219.158.224 port=40572 action=FAILED_LOGIN severity=CRITICAL
+2025-12-19 15:21:38,423 ERROR [TaskScheduler] com.security.auth.SSHMonitor:job_id=job_5000 checksum=6d5ea111cdda6644af13ccd990bbc40c user=hdfs severity=CRITICAL
+2025-12-15 06:55:26,692 ERROR [IPC Server handler] com.security.auth.SSHMonitor:user=admin src_ip=114.195.82.21 port=6632 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-07 08:28:52,899 WARN [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=162.46.126.188 dst_ip=98.77.2.222 domain=malicious.ru protocol=TCP severity=LOW
+2026-01-11 19:12:04,932 ERROR [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:user=admin src_ip=15.253.248.137 port=27240 action=FAILED_LOGIN severity=CRITICAL
+2025-12-23 16:05:55,864 INFO [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=e56090da9c3ffc2933833357f1e80e82 user=admin source=/tmp/.cache/.mr_exec severity=LOW
+2025-12-30 02:51:00,385 INFO [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:src_ip=99.11.172.126 dst_ip=155.62.130.91 domain=test.net protocol=ICMP severity=LOW
+2025-12-19 17:49:39,945 ERROR [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root src_ip=169.78.88.222 port=23450 action=FAILED_LOGIN severity=CRITICAL
+2026-01-05 03:41:24,575 WARN [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=d477e77788bea6a50978afacfa59f253 user=ubuntu source=/etc/passwd severity=CRITICAL
+2026-01-10 00:36:17,476 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:job_id=job_8608 checksum=cc2890d1996eb556e49a122e2ba3711b user=hdfs severity=LOW
+2026-01-11 00:49:24,410 WARN [SSH-Audit] com.network.firewall.PacketAnalyzer:checksum=b70890a0d385df993b73b4140d5fc76e user=hdfs source=/etc/passwd severity=MEDIUM
+2025-12-14 14:06:52,473 ERROR [SSH-Audit] com.security.integrity.FileIntegrityService:user=svc_backup action=WRITE resource=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-16 18:00:13,818 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=4bbac54835981255530bbc7cdc043510 user=ubuntu source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-23 07:16:57,546 INFO [SecurityMonitor] com.security.auth.SSHMonitor:src_ip=193.107.230.20 dst_ip=116.49.143.134 domain=test.net protocol=TCP severity=MEDIUM
+2025-12-22 16:54:16,177 ERROR [ResourceManager] com.security.auth.SSHMonitor:user=root src_ip=133.157.176.130 port=30058 action=FAILED_LOGIN severity=HIGH
+2025-12-15 12:07:52,274 FATAL [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:src_ip=93.13.120.9 dst_ip=39.218.179.227 domain=internal.corp protocol=TCP severity=LOW
+2025-12-26 23:24:14,654 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=admin action=READ resource=/opt/app/config.yaml severity=HIGH
+2025-12-23 08:52:26,986 FATAL [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root src_ip=29.253.207.16 port=49271 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-21 23:01:37,641 ERROR [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=admin action=EXECUTE resource=/opt/app/config.yaml severity=LOW
+2026-01-07 06:40:20,324 WARN [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_7510 checksum=7e2293e1abfe672a6a342ebf4da62566 user=hdfs severity=MEDIUM
+2025-12-19 07:03:42,396 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:src_ip=209.136.69.221 dst_ip=3.163.59.237 domain=malicious.ru protocol=UDP severity=LOW
+2025-12-19 09:28:00,976 ERROR [SSH-Audit] com.security.auth.SSHMonitor:src_ip=114.195.82.21 dst_ip=193.107.230.20 domain=test.net protocol=ICMP severity=MEDIUM
+2025-12-31 15:02:40,204 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_8626 checksum=6dc2cc23535815acb551de9c614ec0b0 user=hdfs severity=LOW
+2025-12-16 16:59:46,469 ERROR [IPC Server handler] com.security.auth.SSHMonitor:user=ubuntu src_ip=39.218.179.227 port=16481 action=LOGIN_SUCCESS severity=LOW
+2025-12-20 05:39:33,734 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:job_id=job_9160 checksum=e76991715f973ad782256c90123ebc34 user=hdfs severity=HIGH
+2026-01-11 01:08:19,896 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:src_ip=88.219.45.93 dst_ip=72.111.108.103 domain=test.net protocol=ICMP severity=CRITICAL
+2025-12-25 16:18:55,841 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_8843 checksum=a4fc225aa3eb1a1757d37fac333730e4 user=hdfs severity=CRITICAL
+2025-12-20 20:11:20,075 WARN [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=205.225.142.53 dst_ip=93.13.120.9 domain=test.net protocol=TCP severity=MEDIUM
+2025-12-20 00:52:37,212 INFO [ResourceManager] com.security.integrity.FileIntegrityService:user=svc_backup action=EXECUTE resource=/etc/passwd severity=HIGH
+2026-01-07 11:14:16,746 WARN [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=159.111.71.47 dst_ip=98.233.237.155 domain=example.com protocol=ICMP severity=MEDIUM
+2026-01-01 17:43:40,503 FATAL [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=15.253.248.137 dst_ip=161.112.77.61 domain=test.net protocol=TCP severity=HIGH
+2026-01-06 23:14:41,771 INFO [SSH-Audit] com.network.firewall.PacketAnalyzer:user=ubuntu action=WRITE resource=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-19 22:52:42,197 INFO [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=ubuntu action=READ resource=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-16 02:46:39,666 ERROR [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_7994 checksum=07c0a21d253742b7cd8e5f2483ba4297 user=hdfs severity=MEDIUM
+2026-01-01 11:53:34,444 ERROR [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_8374 checksum=a465ed12ddf8b3bcd7dfc93c1546e958 user=hdfs severity=MEDIUM
+2025-12-19 20:39:32,844 WARN [IPC Server handler] com.security.auth.SSHMonitor:checksum=74ca5fc63543392019e76d790c74175f user=svc_backup source=/etc/passwd severity=MEDIUM
+2025-12-14 20:03:11,685 ERROR [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=48f050b5ab0bb78c92b3b6f24972df5b user=admin source=/opt/app/config.yaml severity=HIGH
+2026-01-06 20:38:03,470 WARN [SecurityMonitor] com.security.auth.SSHMonitor:user=admin src_ip=116.49.143.134 port=58099 action=LOGIN_SUCCESS severity=LOW
+2026-01-08 20:24:54,691 FATAL [SSH-Audit] com.security.auth.SSHMonitor:user=root src_ip=114.195.82.21 port=63578 action=FAILED_LOGIN severity=HIGH
+2025-12-30 10:55:09,297 WARN [SSH-Audit] com.network.firewall.PacketAnalyzer:checksum=7574567f141dc7b88b966912d7951631 user=hdfs source=/var/www/html/index.php severity=HIGH
+2025-12-29 02:02:01,038 FATAL [ResourceManager] com.security.auth.SSHMonitor:checksum=18ef915b84c33feb5fc9ff02a3299f18 user=ubuntu source=/opt/app/config.yaml severity=LOW
+2025-12-19 23:39:07,606 FATAL [TaskScheduler] com.security.integrity.FileIntegrityService:user=root action=DELETE resource=/etc/passwd severity=HIGH
+2025-12-27 15:02:37,677 INFO [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=b297f23473bbe13f95af2d79033018a7 user=hdfs source=/etc/passwd severity=MEDIUM
+2026-01-11 19:19:31,442 INFO [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin src_ip=187.184.54.156 port=4462 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-11 22:30:58,647 INFO [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=www-data src_ip=56.89.10.145 port=55436 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-04 16:37:17,783 ERROR [TaskScheduler] com.network.firewall.PacketAnalyzer:user=svc_backup src_ip=70.65.210.7 port=60652 action=FAILED_LOGIN severity=HIGH
+2026-01-11 04:56:10,224 FATAL [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs action=READ resource=/opt/app/config.yaml severity=LOW
+2025-12-24 04:56:09,671 ERROR [SSH-Audit] com.network.firewall.PacketAnalyzer:job_id=job_1132 checksum=2233678feb39f127c1a537c62a34d5cc user=hdfs severity=MEDIUM
+2025-12-18 21:14:29,886 ERROR [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_8801 checksum=2e7774a6c468d19a4dd23fb393be4fd4 user=hdfs severity=MEDIUM
+2026-01-13 17:34:30,366 INFO [TaskScheduler] com.security.auth.SSHMonitor:job_id=job_6131 checksum=197cc4451e934aedc6ed80754c59b9d7 user=hdfs severity=LOW
+2026-01-03 07:19:12,646 WARN [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=113.24.63.3 dst_ip=39.79.246.220 domain=malicious.ru protocol=TCP severity=HIGH
+2025-12-19 14:32:21,927 WARN [TaskScheduler] com.security.integrity.FileIntegrityService:checksum=e87ea1b4efaec4cb9d6fdbc01d22e0aa user=www-data source=/var/www/html/index.php severity=MEDIUM
+2025-12-21 07:10:37,542 INFO [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=4b1eccde8b803e419271ae53a7729178 user=admin source=/home/admin/.ssh/authorized_keys severity=LOW
+2026-01-08 08:30:36,033 INFO [IPC Server handler] com.security.auth.SSHMonitor:user=www-data src_ip=22.199.236.209 port=34896 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-15 08:53:29,115 WARN [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:checksum=843d001d206db109479d0a14bae13add user=svc_backup source=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-26 20:56:45,728 FATAL [TaskScheduler] com.security.integrity.FileIntegrityService:user=www-data src_ip=45.219.158.224 port=11101 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-27 06:33:28,292 WARN [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=admin action=EXECUTE resource=/var/www/html/index.php severity=MEDIUM
+2026-01-04 07:03:16,124 ERROR [TaskScheduler] com.security.integrity.FileIntegrityService:src_ip=150.85.109.93 dst_ip=170.230.193.218 domain=example.com protocol=UDP severity=CRITICAL
+2025-12-17 11:51:18,161 WARN [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root action=WRITE resource=/etc/passwd severity=CRITICAL
+2026-01-07 11:42:58,025 ERROR [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=svc_backup src_ip=114.195.82.21 port=15430 action=LOGIN_SUCCESS severity=LOW
+2025-12-17 14:24:02,293 FATAL [SSH-Audit] com.security.auth.SSHMonitor:job_id=job_1063 checksum=7ea1b88603f5e170dfb89e741b69c180 user=hdfs severity=MEDIUM
+2025-12-20 01:33:54,304 ERROR [TaskScheduler] com.security.integrity.FileIntegrityService:checksum=84b3798c39a0c73c1842198a2c122ea5 user=ubuntu source=/tmp/.cache/.mr_exec severity=HIGH
+2025-12-20 05:50:13,722 FATAL [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup src_ip=98.77.2.222 port=57163 action=FAILED_LOGIN severity=HIGH
+2025-12-25 11:18:40,345 ERROR [IPC Server handler] com.security.integrity.FileIntegrityService:job_id=job_3931 checksum=eb9b00e893176f82769bbff7d82173fd user=hdfs severity=HIGH
+2025-12-21 16:22:05,152 WARN [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=www-data src_ip=116.49.143.134 port=55889 action=FAILED_LOGIN severity=CRITICAL
+2025-12-24 14:52:46,184 INFO [TaskScheduler] com.network.firewall.PacketAnalyzer:checksum=355160549724ca4c6c7960d57d2f618b user=svc_backup source=/opt/app/config.yaml severity=LOW
+2026-01-11 23:59:52,899 INFO [IPC Server handler] com.security.auth.SSHMonitor:user=ubuntu action=EXECUTE resource=/etc/passwd severity=CRITICAL
+2025-12-31 14:57:52,783 INFO [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=141.239.92.201 dst_ip=89.210.12.58 domain=test.net protocol=ICMP severity=HIGH
+2026-01-11 00:02:03,633 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:checksum=cdd1ee406289cce79b9eaee60d307c30 user=svc_backup source=/var/www/html/index.php severity=CRITICAL
+2025-12-17 01:40:08,815 FATAL [SecurityMonitor] com.security.integrity.FileIntegrityService:job_id=job_8775 checksum=61caf6f9dbac2ce4eae18108bf8d40df user=hdfs severity=CRITICAL
+2026-01-04 04:49:17,963 ERROR [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=88.58.61.182 dst_ip=22.199.236.209 domain=test.net protocol=UDP severity=CRITICAL
+2026-01-11 15:52:44,613 FATAL [IPC Server handler] com.security.auth.SSHMonitor:checksum=08e055cf24e22ec3e392e5154ce3f12a user=hdfs source=/tmp/.cache/.mr_exec severity=MEDIUM
+2025-12-21 09:58:07,437 ERROR [TaskScheduler] com.network.firewall.PacketAnalyzer:user=admin src_ip=59.164.54.240 port=48012 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-24 23:27:56,962 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:src_ip=46.28.212.51 dst_ip=28.46.124.36 domain=internal.corp protocol=ICMP severity=CRITICAL
+2026-01-10 07:45:09,958 ERROR [IPC Server handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=hdfs action=READ resource=/etc/passwd severity=MEDIUM
+2026-01-03 19:33:00,678 ERROR [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:job_id=job_2707 checksum=08a1f790f35f0a45fa1d6b2fc4c7a3de user=hdfs severity=CRITICAL
+2025-12-16 04:27:31,179 FATAL [ResourceManager] com.network.firewall.PacketAnalyzer:src_ip=85.124.108.151 dst_ip=46.135.35.4 domain=example.com protocol=ICMP severity=MEDIUM
+2026-01-06 15:38:45,379 ERROR [SSH-Audit] com.security.integrity.FileIntegrityService:checksum=844c26fe689ebfaf39f186d9dc45b087 user=root source=/opt/app/config.yaml severity=LOW
+2026-01-10 12:42:34,680 WARN [ResourceManager] com.security.integrity.FileIntegrityService:job_id=job_8344 checksum=a58ddff8df59917de62953432af84313 user=hdfs severity=CRITICAL
+2025-12-28 10:50:24,056 ERROR [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=ubuntu action=WRITE resource=/opt/app/config.yaml severity=CRITICAL
+2025-12-25 05:50:29,566 ERROR [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=59.164.54.240 dst_ip=195.12.154.95 domain=example.com protocol=ICMP severity=LOW
+2025-12-14 15:57:33,809 WARN [SecurityMonitor] com.security.integrity.FileIntegrityService:user=admin action=WRITE resource=/tmp/.cache/.mr_exec severity=LOW
+2025-12-22 19:24:30,080 ERROR [SSH-Audit] com.network.firewall.PacketAnalyzer:user=svc_backup action=EXECUTE resource=/var/www/html/index.php severity=CRITICAL
+2025-12-19 00:59:22,021 INFO [SecurityMonitor] com.network.firewall.PacketAnalyzer:job_id=job_2353 checksum=de5a2fafc222211e95d969b7b396ab53 user=hdfs severity=CRITICAL
+2025-12-20 08:40:47,000 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:src_ip=46.135.35.4 dst_ip=223.3.207.206 domain=malicious.ru protocol=TCP severity=CRITICAL
+2025-12-24 19:19:20,849 INFO [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:job_id=job_4303 checksum=24d4c42345eea906fb9730aa4725fa32 user=hdfs severity=HIGH
+2025-12-24 07:50:01,502 INFO [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup src_ip=136.251.213.248 port=31171 action=FAILED_LOGIN severity=CRITICAL
+2025-12-22 16:33:20,225 INFO [ResourceManager] com.security.integrity.FileIntegrityService:checksum=c71136fa5496b3631b2d61d748b968c0 user=www-data source=/etc/passwd severity=MEDIUM
+2025-12-24 08:18:05,448 WARN [AsyncDispatcher event handler] com.security.auth.SSHMonitor:src_ip=126.71.46.219 dst_ip=98.77.2.222 domain=test.net protocol=UDP severity=CRITICAL
+2026-01-10 17:36:40,734 WARN [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:src_ip=52.160.97.46 dst_ip=143.164.75.77 domain=example.com protocol=UDP severity=MEDIUM
+2025-12-17 12:42:36,582 FATAL [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=EXECUTE resource=/etc/passwd severity=LOW
+2026-01-12 02:22:09,675 WARN [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=143.164.75.77 dst_ip=39.52.129.178 domain=test.net protocol=TCP severity=CRITICAL
+2025-12-20 07:50:58,264 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_2883 checksum=6ee8bda049e2b19062066c53e35d49a3 user=hdfs severity=CRITICAL
+2026-01-08 23:01:39,310 ERROR [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu action=DELETE resource=/etc/passwd severity=HIGH
+2025-12-31 15:53:34,353 WARN [IPC Server handler] com.network.firewall.PacketAnalyzer:src_ip=187.184.54.156 dst_ip=126.71.46.219 domain=malicious.ru protocol=TCP severity=HIGH
+2025-12-27 03:51:03,476 FATAL [AsyncDispatcher event handler] com.security.auth.SSHMonitor:user=svc_backup action=WRITE resource=/etc/passwd severity=MEDIUM
+2025-12-21 10:31:17,294 ERROR [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:checksum=254312bd43fb096e827ac14850587a12 user=admin source=/etc/passwd severity=CRITICAL
+2025-12-25 02:42:07,660 ERROR [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:job_id=job_6735 checksum=600e72d17e0c8d70cc73d6e6ca0ba5c2 user=hdfs severity=HIGH
+2025-12-21 18:57:11,961 INFO [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=06b504d25d4314d19a908f09f256ec71 user=admin source=/opt/app/config.yaml severity=LOW
+2026-01-10 05:20:55,528 ERROR [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=admin src_ip=133.157.176.130 port=58451 action=FAILED_LOGIN severity=CRITICAL
+2025-12-30 10:48:10,200 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=26a95d11b1c0c7359bd679b2cd0ed03b user=www-data source=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2025-12-25 07:31:15,482 INFO [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=svc_backup src_ip=209.136.69.221 port=38167 action=FAILED_LOGIN severity=HIGH
+2025-12-30 08:59:43,323 ERROR [AsyncDispatcher event handler] com.security.auth.SSHMonitor:user=svc_backup src_ip=89.87.244.50 port=2749 action=FAILED_LOGIN severity=HIGH
+2025-12-14 13:46:20,553 WARN [SecurityMonitor] com.security.auth.SSHMonitor:user=admin action=WRITE resource=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2026-01-03 18:14:24,779 FATAL [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=svc_backup src_ip=46.135.35.4 port=7698 action=FAILED_LOGIN severity=HIGH
+2025-12-22 19:26:00,391 INFO [IPC Server handler] com.security.integrity.FileIntegrityService:checksum=4f45b2405e16e8fbb783f1ff75838c92 user=www-data source=/var/www/html/index.php severity=LOW
+2025-12-18 10:51:25,035 WARN [IPC Server handler] com.security.auth.SSHMonitor:checksum=441aa26250e02d927e74fc2592de6104 user=admin source=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2026-01-12 22:47:50,539 ERROR [ResourceManager] com.security.integrity.FileIntegrityService:src_ip=27.200.105.187 dst_ip=196.82.94.242 domain=malicious.ru protocol=ICMP severity=LOW
+2026-01-13 11:31:40,926 WARN [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=3fc327598bb5d469e50b8010632d342c user=admin source=/var/www/html/index.php severity=CRITICAL
+2025-12-19 21:48:40,547 ERROR [SecurityMonitor] com.network.firewall.PacketAnalyzer:job_id=job_8938 checksum=bf58b2245cc399a2dfa262911ed8683a user=hdfs severity=HIGH
+2025-12-28 05:07:38,309 ERROR [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=ba266c1d3e13df3d74cdbd3dc93ec356 user=www-data source=/var/www/html/index.php severity=MEDIUM
+2025-12-26 20:32:52,121 INFO [TaskScheduler] com.security.auth.SSHMonitor:user=svc_backup src_ip=116.49.143.134 port=53156 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-23 00:03:31,904 INFO [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs action=DELETE resource=/opt/app/config.yaml severity=LOW
+2026-01-07 04:48:42,771 INFO [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=22.199.236.209 dst_ip=162.46.126.188 domain=internal.corp protocol=UDP severity=HIGH
+2025-12-24 08:48:51,557 WARN [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=80976d653fd89ede8ebf8df955aa5bc7 user=root source=/opt/app/config.yaml severity=MEDIUM
+2026-01-10 22:11:19,211 ERROR [TaskScheduler] com.security.integrity.FileIntegrityService:user=svc_backup src_ip=66.135.148.144 port=24283 action=FAILED_LOGIN severity=HIGH
+2025-12-24 19:38:54,887 WARN [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=hdfs src_ip=59.77.174.64 port=21872 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-03 02:37:55,432 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=d54dc1d2ba0e7bc653532726f5bb5c38 user=root source=/tmp/.cache/.mr_exec severity=LOW
+2025-12-18 13:59:33,202 WARN [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=30e7d8c62e0cc0f64f0eb49fb14f2f54 user=svc_backup source=/opt/app/config.yaml severity=HIGH
+2026-01-03 20:58:29,951 WARN [ResourceManager] com.security.auth.SSHMonitor:checksum=67b279ee9c630f8af7dfcf54552b96a9 user=ubuntu source=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2025-12-18 22:19:31,373 ERROR [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=169.78.88.222 dst_ip=72.111.108.103 domain=test.net protocol=UDP severity=HIGH
+2025-12-28 03:01:53,421 FATAL [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=DELETE resource=/var/www/html/index.php severity=CRITICAL
+2026-01-06 21:02:11,420 WARN [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=a3eaf7ba7bd745f390e9100306e0b762 user=hdfs source=/tmp/.cache/.mr_exec severity=HIGH
+2026-01-01 22:28:08,509 ERROR [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=8a4bcdbd090fd5b55ecb7ebfe4fa0532 user=ubuntu source=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2026-01-11 22:30:09,665 FATAL [IPC Server handler] com.network.firewall.PacketAnalyzer:src_ip=78.178.233.139 dst_ip=28.46.124.36 domain=internal.corp protocol=ICMP severity=MEDIUM
+2026-01-03 14:03:31,263 INFO [TaskScheduler] com.security.auth.SSHMonitor:user=www-data src_ip=187.123.102.104 port=26789 action=FAILED_LOGIN severity=HIGH
+2025-12-17 07:48:28,900 FATAL [IPC Server handler] com.security.auth.SSHMonitor:checksum=3f51eef968221ebaf3825e807e620402 user=www-data source=/etc/passwd severity=CRITICAL
+2025-12-20 04:28:59,758 ERROR [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=15e18caaf65d10950235336266c8f0f9 user=svc_backup source=/etc/passwd severity=LOW
+2026-01-06 19:40:04,780 ERROR [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=www-data src_ip=65.94.247.87 port=13506 action=LOGIN_SUCCESS severity=LOW
+2026-01-07 22:27:43,729 WARN [SSH-Audit] com.network.firewall.PacketAnalyzer:user=root action=DELETE resource=/home/admin/.ssh/authorized_keys severity=LOW
+2026-01-06 02:54:45,375 ERROR [SSH-Audit] com.security.integrity.FileIntegrityService:job_id=job_2262 checksum=43229593316f2db23702b7bbbe5423c0 user=hdfs severity=MEDIUM
+2026-01-08 16:26:54,880 INFO [SSH-Audit] com.security.integrity.FileIntegrityService:user=admin src_ip=195.103.252.123 port=2371 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-18 02:39:55,470 INFO [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=162.46.126.188 dst_ip=133.252.156.135 domain=malicious.ru protocol=UDP severity=HIGH
+2025-12-18 05:24:42,358 FATAL [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=4.143.80.168 dst_ip=114.195.82.21 domain=test.net protocol=UDP severity=LOW
+2025-12-17 08:32:54,674 INFO [AsyncDispatcher event handler] com.security.auth.SSHMonitor:job_id=job_9818 checksum=f2a73ef345a3e97d7d7898b749be3945 user=hdfs severity=MEDIUM
+2025-12-21 13:37:42,623 ERROR [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=263ea858fb522910313bb9c5f23c5000 user=root source=/var/www/html/index.php severity=MEDIUM
+2026-01-03 17:07:29,200 INFO [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu action=WRITE resource=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2025-12-14 09:55:38,054 WARN [ResourceManager] com.security.auth.SSHMonitor:src_ip=137.79.134.103 dst_ip=196.82.94.242 domain=internal.corp protocol=UDP severity=HIGH
+2025-12-19 10:45:12,097 ERROR [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_8005 checksum=c7c3183361a394a1acce8534e5137de4 user=hdfs severity=HIGH
+2026-01-01 04:35:48,715 FATAL [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data src_ip=112.16.70.88 port=3364 action=FAILED_LOGIN severity=HIGH
+2025-12-26 20:58:12,783 FATAL [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu src_ip=104.82.240.248 port=8684 action=FAILED_LOGIN severity=HIGH
+2025-12-19 03:26:40,288 FATAL [IPC Server handler] com.network.firewall.PacketAnalyzer:job_id=job_4413 checksum=fdf300200575093fdc95d1c9076eb738 user=hdfs severity=HIGH
+2026-01-11 21:57:17,898 FATAL [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:src_ip=92.36.84.123 dst_ip=105.71.1.246 domain=internal.corp protocol=ICMP severity=CRITICAL
+2026-01-10 11:12:20,623 WARN [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=193.107.230.20 dst_ip=84.242.169.10 domain=internal.corp protocol=UDP severity=CRITICAL
+2026-01-12 01:01:10,549 WARN [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=328d767d424fc354b2c2d840c71c379b user=ubuntu source=/opt/app/config.yaml severity=MEDIUM
+2025-12-27 20:50:51,911 WARN [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:checksum=615e77c4433c807d23e6891f11f8f0f7 user=root source=/tmp/.cache/.mr_exec severity=LOW
+2026-01-04 08:08:15,065 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=hdfs action=DELETE resource=/etc/passwd severity=MEDIUM
+2026-01-07 06:53:03,535 WARN [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=a8aed9453403da02ebb68501acd8a6bf user=admin source=/opt/app/config.yaml severity=CRITICAL
+2026-01-03 21:53:06,999 FATAL [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=EXECUTE resource=/var/www/html/index.php severity=CRITICAL
+2025-12-29 15:10:31,909 ERROR [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=admin src_ip=65.94.247.87 port=16842 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-11 12:40:55,165 ERROR [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=162.189.44.136 dst_ip=209.136.69.221 domain=example.com protocol=ICMP severity=CRITICAL
+2025-12-22 15:38:46,419 INFO [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=110.211.112.238 dst_ip=93.13.120.9 domain=internal.corp protocol=UDP severity=MEDIUM
+2025-12-18 09:01:56,551 WARN [IPC Server handler] com.network.firewall.PacketAnalyzer:user=ubuntu src_ip=159.111.71.47 port=46197 action=FAILED_LOGIN severity=CRITICAL
+2026-01-02 16:03:13,718 ERROR [SSH-Audit] com.network.firewall.PacketAnalyzer:user=svc_backup src_ip=209.136.69.221 port=43461 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-30 03:35:55,250 FATAL [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_9554 checksum=0508bd7cbae5993f5491795c0b34cad2 user=hdfs severity=MEDIUM
+2026-01-10 23:42:15,404 WARN [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_3182 checksum=64bd9257924775cf63c89e5a988f42d5 user=hdfs severity=MEDIUM
+2025-12-25 16:44:40,562 FATAL [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=www-data src_ip=45.219.158.224 port=43669 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-01 16:00:43,616 INFO [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:job_id=job_4540 checksum=52d9aa133f3d766b6a861bdcdcc766a2 user=hdfs severity=LOW
+2025-12-26 09:12:34,401 ERROR [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_4583 checksum=e642c08f932e15b3cf253a4a11655ce5 user=hdfs severity=CRITICAL
+2025-12-28 00:10:21,264 ERROR [TaskScheduler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=ubuntu src_ip=59.164.54.240 port=17969 action=FAILED_LOGIN severity=CRITICAL
+2026-01-01 15:24:51,181 FATAL [IPC Server handler] com.network.firewall.PacketAnalyzer:src_ip=195.12.154.95 dst_ip=165.118.213.211 domain=internal.corp protocol=ICMP severity=HIGH
+2026-01-01 01:33:37,649 FATAL [TaskScheduler] com.security.auth.SSHMonitor:src_ip=162.189.44.136 dst_ip=101.67.29.31 domain=malicious.ru protocol=TCP severity=LOW
+2025-12-14 11:57:29,626 INFO [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=www-data action=DELETE resource=/opt/app/config.yaml severity=CRITICAL
+2025-12-16 19:58:16,893 WARN [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=admin src_ip=162.46.126.188 port=39601 action=LOGIN_SUCCESS severity=LOW
+2026-01-06 07:12:08,441 INFO [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=3acf1e9c932662b3983d1018b481f79c user=ubuntu source=/etc/passwd severity=CRITICAL
+2026-01-08 06:15:50,023 INFO [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=ubuntu action=WRITE resource=/opt/app/config.yaml severity=LOW
+2026-01-06 03:50:57,044 INFO [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=admin action=WRITE resource=/etc/passwd severity=LOW
+2025-12-22 20:50:05,564 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:user=svc_backup action=EXECUTE resource=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2026-01-12 05:28:52,205 INFO [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=122.39.35.100 dst_ip=187.123.102.104 domain=internal.corp protocol=UDP severity=HIGH
+2025-12-22 22:41:29,764 FATAL [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=695c82ff3f3156eb5433087e9045f90c user=ubuntu source=/tmp/.cache/.mr_exec severity=CRITICAL
+2025-12-20 23:50:53,718 ERROR [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=6ef24926065f49eb3bb3f78021948100 user=admin source=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2026-01-09 17:36:20,491 FATAL [SSH-Audit] com.network.firewall.PacketAnalyzer:user=ubuntu src_ip=159.111.71.47 port=18683 action=FAILED_LOGIN severity=HIGH
+2025-12-27 12:55:32,140 WARN [ResourceManager] com.security.auth.SSHMonitor:job_id=job_7815 checksum=2a89eafcaffb7c6676da1de30561d0f6 user=hdfs severity=MEDIUM
+2026-01-12 04:50:54,117 ERROR [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_7602 checksum=bef0ce701524b7b71cfd996c6dda1fcc user=hdfs severity=CRITICAL
+2026-01-08 06:15:56,381 WARN [SecurityMonitor] com.security.auth.SSHMonitor:job_id=job_7605 checksum=ad939f1c0e728ed95fae7f3425caadb4 user=hdfs severity=LOW
+2025-12-14 17:09:59,300 INFO [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_3293 checksum=8795d70ae6ac50a8097f120d4c9d8622 user=hdfs severity=LOW
+2026-01-02 12:06:23,176 INFO [ResourceManager] com.security.integrity.FileIntegrityService:checksum=67f14ed859780afabdf8c1151570f3f3 user=hdfs source=/opt/app/config.yaml severity=CRITICAL
+2025-12-28 15:51:08,977 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:user=admin action=READ resource=/etc/passwd severity=CRITICAL
+2025-12-24 08:38:31,071 INFO [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=145.163.167.66 dst_ip=98.77.2.222 domain=test.net protocol=TCP severity=HIGH
+2025-12-16 05:13:30,855 INFO [IPC Server handler] com.security.integrity.FileIntegrityService:job_id=job_2553 checksum=bf27e26af32c6bf2d757fb7e148cc7e0 user=hdfs severity=CRITICAL
+2025-12-19 18:50:19,133 FATAL [ResourceManager] com.network.firewall.PacketAnalyzer:checksum=45938e0285b6c56ca7fe1bd46c7e1164 user=root source=/etc/passwd severity=CRITICAL
+2025-12-25 04:58:57,468 INFO [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=svc_backup action=WRITE resource=/etc/passwd severity=MEDIUM
+2026-01-12 04:06:07,959 WARN [SecurityMonitor] com.security.auth.SSHMonitor:src_ip=62.101.108.139 dst_ip=27.200.105.187 domain=internal.corp protocol=TCP severity=LOW
+2025-12-29 08:15:22,758 ERROR [IPC Server handler] com.network.firewall.PacketAnalyzer:src_ip=46.135.35.4 dst_ip=22.199.236.209 domain=example.com protocol=UDP severity=CRITICAL
+2025-12-28 10:16:47,138 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=root action=READ resource=/tmp/.cache/.mr_exec severity=LOW
+2026-01-10 17:41:02,547 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_5817 checksum=d0573b94dcb587b9021588f0dd6ed20c user=hdfs severity=LOW
+2026-01-04 02:43:43,397 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=root src_ip=159.224.227.37 port=25013 action=FAILED_LOGIN severity=CRITICAL
+2025-12-19 07:32:55,456 WARN [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=144.93.192.58 dst_ip=187.123.102.104 domain=test.net protocol=TCP severity=LOW
+2026-01-12 22:30:58,539 INFO [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=hdfs action=EXECUTE resource=/tmp/.cache/.mr_exec severity=HIGH
+2025-12-26 01:41:40,999 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=hdfs action=WRITE resource=/var/www/html/index.php severity=MEDIUM
+2025-12-29 09:05:56,451 FATAL [SSH-Audit] com.network.firewall.PacketAnalyzer:user=root action=WRITE resource=/var/www/html/index.php severity=CRITICAL
+2025-12-30 15:43:06,188 WARN [SecurityMonitor] com.network.firewall.PacketAnalyzer:user=ubuntu src_ip=27.200.105.187 port=6068 action=FAILED_LOGIN severity=CRITICAL
+2025-12-26 06:29:58,929 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:src_ip=127.109.112.22 dst_ip=187.184.54.156 domain=internal.corp protocol=UDP severity=MEDIUM
+2025-12-17 02:58:27,559 WARN [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_6470 checksum=f6945194653220b1d6a0c1e495c44737 user=hdfs severity=HIGH
+2025-12-21 10:56:21,953 WARN [SecurityMonitor] com.security.integrity.FileIntegrityService:user=svc_backup action=EXECUTE resource=/tmp/.cache/.mr_exec severity=MEDIUM
+2025-12-29 07:04:36,098 INFO [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=admin action=READ resource=/opt/app/config.yaml severity=HIGH
+2026-01-01 12:13:24,787 INFO [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:user=hdfs src_ip=207.126.85.96 port=16327 action=FAILED_LOGIN severity=CRITICAL
+2026-01-13 04:22:04,949 FATAL [TaskScheduler] com.security.integrity.FileIntegrityService:user=www-data src_ip=39.218.179.227 port=23800 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-14 22:46:50,145 FATAL [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_9690 checksum=94f898d6adf270f739f682587191c889 user=hdfs severity=CRITICAL
+2026-01-09 09:07:18,602 ERROR [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=dc8836757a1f18093f83fe22d6514893 user=root source=/var/www/html/index.php severity=MEDIUM
+2026-01-12 18:55:55,025 ERROR [IPC Server handler] com.security.integrity.FileIntegrityService:src_ip=159.111.71.47 dst_ip=161.112.77.61 domain=malicious.ru protocol=UDP severity=MEDIUM
+2025-12-21 19:32:15,125 INFO [SSH-Audit] com.network.firewall.PacketAnalyzer:user=svc_backup src_ip=26.185.7.132 port=15482 action=LOGIN_SUCCESS severity=LOW
+2025-12-26 13:01:19,405 INFO [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:checksum=03f567bb51b02cb4d602690582f6d110 user=admin source=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2025-12-15 21:43:51,815 INFO [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=EXECUTE resource=/home/admin/.ssh/authorized_keys severity=CRITICAL
+2025-12-16 02:00:09,828 ERROR [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs src_ip=106.81.192.53 port=24008 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-20 07:18:24,280 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=hdfs action=WRITE resource=/opt/app/config.yaml severity=HIGH
+2025-12-24 23:56:27,292 ERROR [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=WRITE resource=/opt/app/config.yaml severity=MEDIUM
+2026-01-10 21:30:53,536 FATAL [SecurityMonitor] com.security.auth.SSHMonitor:src_ip=52.30.183.130 dst_ip=93.13.120.9 domain=example.com protocol=UDP severity=HIGH
+2026-01-06 22:00:19,498 WARN [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_8456 checksum=d96fff526867caefabf576749513ca9a user=hdfs severity=CRITICAL
+2026-01-01 02:27:17,659 FATAL [IPC Server handler] com.security.auth.SSHMonitor:job_id=job_4467 checksum=ddfd7f1251a6c34d5a4da840ef8a6c9c user=hdfs severity=LOW
+2025-12-27 19:36:46,583 WARN [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=4331cd69ce67a9d7c888c27737374c19 user=hdfs source=/etc/passwd severity=MEDIUM
+2025-12-17 04:22:51,093 FATAL [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_4330 checksum=367b7a52f223df402824017466836d9e user=hdfs severity=MEDIUM
+2026-01-05 20:03:25,885 ERROR [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=75cb9f0d5156e70b2772ad8e6af91096 user=svc_backup source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-14 07:10:53,196 ERROR [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=hdfs src_ip=22.199.236.209 port=46427 action=LOGIN_SUCCESS severity=MEDIUM
+2025-12-24 06:20:01,270 WARN [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin src_ip=72.111.108.103 port=45486 action=FAILED_LOGIN severity=CRITICAL
+2025-12-24 22:18:33,304 ERROR [IPC Server handler] com.network.firewall.PacketAnalyzer:checksum=69010ef00d49ca1f732a38ac70b2d3d1 user=www-data source=/opt/app/config.yaml severity=HIGH
+2025-12-18 08:35:29,460 INFO [TaskScheduler] com.security.auth.SSHMonitor:user=hdfs action=READ resource=/etc/passwd severity=HIGH
+2025-12-23 08:00:13,797 ERROR [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=b0b14b09639b46cb3640b0e5088405d0 user=root source=/opt/app/config.yaml severity=LOW
+2025-12-18 05:26:06,714 INFO [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=7f05156f7da3be67cc682e877f16df8c user=www-data source=/var/www/html/index.php severity=HIGH
+2025-12-17 23:57:48,184 ERROR [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:checksum=626250ddc4ed67d3add4348b913dcbe4 user=root source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-13 23:45:56,626 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=114.195.82.21 dst_ip=89.87.244.50 domain=internal.corp protocol=UDP severity=HIGH
+2025-12-21 08:06:11,517 INFO [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_4890 checksum=173f069f06b25f35be7845988f0866d3 user=hdfs severity=HIGH
+2025-12-23 03:43:32,757 WARN [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:user=svc_backup action=WRITE resource=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2025-12-24 05:19:45,685 WARN [SSH-Audit] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=hdfs action=DELETE resource=/etc/passwd severity=MEDIUM
+2025-12-23 06:05:34,417 FATAL [SSH-Audit] com.security.auth.SSHMonitor:user=svc_backup action=WRITE resource=/opt/app/config.yaml severity=CRITICAL
+2026-01-13 17:36:30,153 WARN [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_7465 checksum=2129aae7b23a3b4de3048416dc9f2370 user=hdfs severity=LOW
+2026-01-04 15:20:42,005 INFO [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root action=WRITE resource=/opt/app/config.yaml severity=LOW
+2025-12-21 01:41:54,356 INFO [SSH-Audit] com.security.auth.SSHMonitor:user=www-data action=EXECUTE resource=/var/www/html/index.php severity=LOW
+2025-12-27 09:24:33,548 WARN [IPC Server handler] com.network.firewall.PacketAnalyzer:src_ip=39.218.179.227 dst_ip=165.118.213.211 domain=example.com protocol=TCP severity=MEDIUM
+2025-12-30 05:28:56,348 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_8270 checksum=09ee129ed3c46c3678caaa745a6ea0b0 user=hdfs severity=CRITICAL
+2026-01-05 04:40:22,634 INFO [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:user=admin action=DELETE resource=/tmp/.cache/.mr_exec severity=LOW
+2026-01-04 21:30:01,660 FATAL [TaskScheduler] com.security.integrity.FileIntegrityService:src_ip=66.135.148.144 dst_ip=165.118.213.211 domain=malicious.ru protocol=ICMP severity=CRITICAL
+2025-12-21 11:28:35,625 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=c06f09c4f65c710b4929e060ace9e879 user=www-data source=/tmp/.cache/.mr_exec severity=MEDIUM
+2025-12-24 09:52:06,283 FATAL [ResourceManager] com.security.integrity.FileIntegrityService:job_id=job_5535 checksum=810ca3f049754a179f3543266ad420b5 user=hdfs severity=MEDIUM
+2025-12-29 16:54:49,464 INFO [SecurityMonitor] com.security.integrity.FileIntegrityService:user=admin src_ip=31.228.0.55 port=14775 action=FAILED_LOGIN severity=HIGH
+2025-12-29 05:26:16,609 ERROR [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=481091fa47c89cb5a269c72a9216f5f6 user=root source=/home/admin/.ssh/authorized_keys severity=HIGH
+2026-01-04 08:06:33,689 INFO [SSH-Audit] com.security.integrity.FileIntegrityService:job_id=job_4819 checksum=797df091795bd713de0b0ec046a6817e user=hdfs severity=MEDIUM
+2026-01-12 00:23:52,276 FATAL [SecurityMonitor] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:checksum=126c592c5dbfb20c1cd7e9f4644b59cf user=root source=/etc/passwd severity=LOW
+2025-12-13 23:44:36,604 FATAL [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_5720 checksum=c67017efdffe003f3b42079b7776db6b user=hdfs severity=HIGH
+2025-12-13 22:37:21,685 FATAL [IPC Server handler] com.security.auth.SSHMonitor:job_id=job_7928 checksum=25e1ff8be9dde812d15c4bc35ea37593 user=hdfs severity=MEDIUM
+2025-12-23 13:40:56,586 INFO [SecurityMonitor] com.network.firewall.PacketAnalyzer:user=www-data action=EXECUTE resource=/tmp/.cache/.mr_exec severity=HIGH
+2026-01-13 00:01:43,897 INFO [ResourceManager] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=hdfs src_ip=162.46.126.188 port=38138 action=LOGIN_SUCCESS severity=LOW
+2025-12-19 12:49:26,248 FATAL [AsyncDispatcher event handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=34.161.134.164 dst_ip=72.111.108.103 domain=example.com protocol=UDP severity=CRITICAL
+2025-12-25 03:20:42,304 FATAL [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data action=EXECUTE resource=/etc/passwd severity=LOW
+2026-01-08 18:17:58,279 INFO [SSH-Audit] com.security.integrity.FileIntegrityService:user=root src_ip=113.24.63.3 port=53978 action=FAILED_LOGIN severity=CRITICAL
+2025-12-25 04:02:54,964 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=root src_ip=195.12.154.95 port=6817 action=FAILED_LOGIN severity=CRITICAL
+2026-01-12 21:25:32,198 ERROR [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=161.112.77.61 dst_ip=15.253.248.137 domain=test.net protocol=UDP severity=HIGH
+2025-12-16 09:08:33,923 INFO [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=www-data src_ip=186.20.241.218 port=21744 action=LOGIN_SUCCESS severity=LOW
+2026-01-10 11:02:08,350 ERROR [TaskScheduler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu action=DELETE resource=/var/www/html/index.php severity=HIGH
+2025-12-25 17:43:33,454 FATAL [SSH-Audit] com.security.integrity.FileIntegrityService:src_ip=59.77.174.64 dst_ip=93.13.120.9 domain=example.com protocol=ICMP severity=LOW
+2025-12-20 22:08:33,949 INFO [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:checksum=cbb0ec7b5e0e6cec498a1efa5b34ebf2 user=www-data source=/home/admin/.ssh/authorized_keys severity=MEDIUM
+2026-01-02 06:23:08,675 INFO [IPC Server handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=ubuntu src_ip=113.24.63.3 port=7475 action=LOGIN_SUCCESS severity=LOW
+2025-12-26 04:47:50,004 WARN [ResourceManager] com.network.firewall.PacketAnalyzer:user=svc_backup action=WRITE resource=/var/www/html/index.php severity=CRITICAL
+2025-12-13 22:57:37,750 WARN [ResourceManager] com.security.integrity.FileIntegrityService:job_id=job_1995 checksum=54af5b29aea431c7c86d8daa65e6954a user=hdfs severity=MEDIUM
+2026-01-08 07:43:19,739 ERROR [IPC Server handler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:job_id=job_8093 checksum=fb430cd7896910cbeb40a77131d418ef user=hdfs severity=CRITICAL
+2026-01-13 15:05:54,888 INFO [SSH-Audit] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=ubuntu src_ip=205.197.186.39 port=53448 action=LOGIN_SUCCESS severity=LOW
+2026-01-03 15:15:57,639 WARN [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=hdfs src_ip=195.12.154.95 port=18628 action=FAILED_LOGIN severity=HIGH
+2025-12-16 06:42:45,857 WARN [IPC Server handler] com.security.auth.SSHMonitor:job_id=job_7822 checksum=323692352fcdcfb7005b4ec2cba3dc21 user=hdfs severity=LOW
+2026-01-10 19:54:49,314 WARN [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:job_id=job_4971 checksum=1bd8cd05c9225ad690b1d6b230d9b3ef user=hdfs severity=CRITICAL
+2025-12-13 23:22:29,592 WARN [SecurityMonitor] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:src_ip=89.6.161.59 dst_ip=78.178.233.139 domain=example.com protocol=TCP severity=HIGH
+2025-12-26 04:08:05,694 INFO [AsyncDispatcher event handler] com.security.auth.SSHMonitor:user=root src_ip=46.28.212.51 port=64097 action=LOGIN_SUCCESS severity=LOW
+2026-01-03 07:17:01,110 FATAL [SecurityMonitor] com.network.firewall.PacketAnalyzer:checksum=c6459e40c909ec30330a103c6f5d1535 user=svc_backup source=/var/www/html/index.php severity=CRITICAL
+2025-12-20 02:55:15,982 FATAL [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs src_ip=126.71.46.219 port=21932 action=FAILED_LOGIN severity=CRITICAL
+2026-01-01 14:23:01,777 ERROR [SecurityMonitor] com.security.auth.SSHMonitor:user=hdfs src_ip=195.12.154.95 port=12601 action=FAILED_LOGIN severity=CRITICAL
+2026-01-04 12:31:47,677 ERROR [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:checksum=741dd032378a0de2a533a2c2710d13a6 user=svc_backup source=/home/admin/.ssh/authorized_keys severity=HIGH
+2025-12-25 13:33:22,594 INFO [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:src_ip=46.28.212.51 dst_ip=110.211.112.238 domain=malicious.ru protocol=TCP severity=CRITICAL
+2026-01-06 20:39:09,294 WARN [SSH-Audit] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs src_ip=150.85.109.93 port=62994 action=LOGIN_SUCCESS severity=MEDIUM
+2026-01-08 19:21:38,014 WARN [AsyncDispatcher event handler] com.security.integrity.FileIntegrityService:checksum=50fce5f6f288e427cfcc5a7c6ec9e452 user=ubuntu source=/etc/passwd severity=CRITICAL
+2025-12-19 00:28:27,097 ERROR [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=hdfs src_ip=89.210.12.58 port=16419 action=FAILED_LOGIN severity=CRITICAL
+2026-01-10 11:41:05,349 WARN [AsyncDispatcher event handler] org.apache.hadoop.hdfs.server.namenode.FSNamesystem:user=admin action=DELETE resource=/home/admin/.ssh/authorized_keys severity=LOW
+2026-01-03 00:04:11,404 ERROR [SecurityMonitor] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:src_ip=27.200.105.187 dst_ip=3.163.59.237 domain=example.com protocol=TCP severity=LOW
+2026-01-05 13:35:43,325 FATAL [AsyncDispatcher event handler] com.network.firewall.PacketAnalyzer:checksum=d1b762fe3687b08ea4e7ea2094eeccaa user=www-data source=/etc/passwd severity=MEDIUM
+2025-12-16 16:36:36,827 INFO [ResourceManager] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=www-data src_ip=39.79.246.220 port=51014 action=FAILED_LOGIN severity=HIGH
+2025-12-27 03:55:26,265 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:user=admin action=EXECUTE resource=/etc/passwd severity=MEDIUM
+2026-01-08 04:30:57,872 WARN [TaskScheduler] org.apache.hadoop.yarn.server.resourcemanager.ResourceTrackerService:user=svc_backup src_ip=159.111.71.47 port=24488 action=FAILED_LOGIN severity=HIGH
+2026-01-01 17:41:52,281 ERROR [ResourceManager] org.apache.hadoop.mapreduce.v2.app.MRAppMaster:job_id=job_2774 checksum=1a63823bc9ac6b43350248d137b6a9ef user=hdfs severity=CRITICAL
+2025-12-18 21:38:37,261 INFO [SecurityMonitor] com.network.firewall.PacketAnalyzer:user=svc_backup action=READ resource=/opt/app/config.yaml severity=HIGH
